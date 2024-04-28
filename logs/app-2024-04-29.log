@@ -1,0 +1,70 @@
+29/04/24 01:30:00 - Spark_ETL-project - INFO - Creating Spark session
+29/04/24 01:30:06 - Spark_ETL-project - INFO - Spark session created successfully
+29/04/24 01:30:06 - Spark_ETL-project - INFO - Creating S3 imstance for DEV environment
+29/04/24 01:30:12 - Spark_ETL-project - INFO - Showing the files available in S3
+source/Specialty_names.csv
+source/doctor_details.csv
+source/doctor_hospital_relation.csv
+source/doctor_specialty.csv
+source/employee_details.csv
+source/employee_hospital_relation.csv
+source/hospital_details.csv
+
+29/04/24 01:30:12 - Spark_ETL-project - INFO - Starting loading source datasets in dataframes
+29/04/24 01:30:12 - Spark_ETL-project - INFO - Defining various schemas
+29/04/24 01:30:12 - Spark_ETL-project - INFO - Creating S3 imstance for DEV environment
+29/04/24 01:30:12 - Spark_ETL-project - INFO - Downloading S3 files in local system
+29/04/24 01:30:12 - Spark_ETL-project - INFO - S3 files downloaded successfully in local system
+29/04/24 01:30:12 - Spark_ETL-project - INFO - Creating Doctor dataframe
+29/04/24 01:30:14 - Spark_ETL-project - INFO - Doctor dataframe Created successfully
+29/04/24 01:30:14 - Spark_ETL-project - INFO - Showing Doctor data
+29/04/24 01:30:19 - Spark_ETL-project - INFO - Creating Doctor-Hospital-Relationship dataframe
+29/04/24 01:30:19 - Spark_ETL-project - INFO - Doctor-Hospital-Relationship dataframe Created successfully
+29/04/24 01:30:19 - Spark_ETL-project - INFO - Showing Doctor-Hospital-Relationship data
+29/04/24 01:30:19 - Spark_ETL-project - INFO - Creating Employee dataframe
+29/04/24 01:30:19 - Spark_ETL-project - INFO - Employee dataframe Created successfully
+29/04/24 01:30:19 - Spark_ETL-project - INFO - Showing Employee data
+29/04/24 01:30:20 - Spark_ETL-project - INFO - Creating Employee-Hospital-Relationship dataframe
+29/04/24 01:30:20 - Spark_ETL-project - INFO - Employee-Hospital-Relationship dataframe Created successfully
+29/04/24 01:30:20 - Spark_ETL-project - INFO - Showing Employee-Hospital-Relationship data
+29/04/24 01:30:20 - Spark_ETL-project - INFO - Creating Hospital dataframe
+29/04/24 01:30:20 - Spark_ETL-project - INFO - Hospital dataframe Created successfully
+29/04/24 01:30:20 - Spark_ETL-project - INFO - Showing Hospital data
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Creating Doctor-Spacialty dataframe
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Doctor-Spacialty dataframe Created successfully
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Showing Doctor-Spacialty data
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Creating Specialty-Names dataframe
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Spacialty-Names dataframe Created successfully
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Showing Spacialty-Names data
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Starting Transformation of Doctor dataframes
+29/04/24 01:30:21 - Spark_ETL-project - INFO - Inside Doctor Transformation function
+29/04/24 01:30:22 - Spark_ETL-project - INFO - Added number of hospital doctor is working in Column successfully
+29/04/24 01:30:41 - Spark_ETL-project - INFO - Transforming Specialty and calculation of Specialty rank successful
+29/04/24 01:30:41 - Spark_ETL-project - INFO - Specilaty 1 Column added successfully
+29/04/24 01:31:01 - Spark_ETL-project - INFO - Specialty 2 Column added Successfully
+29/04/24 01:31:19 - Spark_ETL-project - INFO - Doctor Transformation done- Returning to main function
+29/04/24 01:31:19 - Spark_ETL-project - INFO - Starting Transformation of Employee dataframes
+29/04/24 01:31:19 - Spark_ETL-project - INFO - Inside Employee Transformation function
+29/04/24 01:31:19 - Spark_ETL-project - INFO - Added Manager details in Dataframe successfully
+29/04/24 01:31:19 - Spark_ETL-project - INFO - Added number of hospital employee is working in column successfully
+29/04/24 01:31:23 - Spark_ETL-project - INFO - Employee transformation done successfully- returning to main function
+29/04/24 01:31:23 - Spark_ETL-project - INFO - Starting Transformation of Hospital dataframes
+29/04/24 01:31:23 - Spark_ETL-project - INFO - Inside Hospital transformation function
+29/04/24 01:31:23 - Spark_ETL-project - INFO - Added number of doctors working in the hospital column successfully
+29/04/24 01:31:24 - Spark_ETL-project - INFO - Added 4 Employee name who are working in that hospital column successfully
+29/04/24 01:31:46 - Spark_ETL-project - INFO - Hospital transformation done successfully- returning to main function
+29/04/24 01:31:46 - Spark_ETL-project - INFO - Writing Doctor dataframes into MSSQL table
+29/04/24 01:32:11 - Spark_ETL-project - INFO - Data successfully written into ETL.Prescriber table 
+29/04/24 01:32:11 - Spark_ETL-project - INFO - Writing Hospital dataframes into MSSQL table
+29/04/24 01:32:36 - Spark_ETL-project - INFO - Data successfully written into ETL.Organisation table 
+29/04/24 01:32:36 - Spark_ETL-project - INFO - Writing Employee dataframes into MSSQL table
+29/04/24 01:32:41 - Spark_ETL-project - INFO - Data successfully written into ETL.Employee table 
+29/04/24 01:32:41 - Spark_ETL-project - INFO - Archiving S3 files
+29/04/24 01:32:51 - Spark_ETL-project - INFO - Data Moved succesfully from source/Specialty_names.csv to archive/2024_04_29/Specialty_names.csv
+29/04/24 01:32:52 - Spark_ETL-project - INFO - Data Moved succesfully from source/doctor_details.csv to archive/2024_04_29/doctor_details.csv
+29/04/24 01:32:57 - Spark_ETL-project - INFO - Data Moved succesfully from source/doctor_hospital_relation.csv to archive/2024_04_29/doctor_hospital_relation.csv
+29/04/24 01:32:58 - Spark_ETL-project - INFO - Data Moved succesfully from source/doctor_specialty.csv to archive/2024_04_29/doctor_specialty.csv
+29/04/24 01:33:02 - Spark_ETL-project - INFO - Data Moved succesfully from source/employee_details.csv to archive/2024_04_29/employee_details.csv
+29/04/24 01:33:08 - Spark_ETL-project - INFO - Data Moved succesfully from source/employee_hospital_relation.csv to archive/2024_04_29/employee_hospital_relation.csv
+29/04/24 01:33:09 - Spark_ETL-project - INFO - Data Moved succesfully from source/hospital_details.csv to archive/2024_04_29/hospital_details.csv
+29/04/24 01:33:09 - Spark_ETL-project - INFO - ETL completed successfully

@@ -1,0 +1,56 @@
+﻿specialty_id,Specialty_name,Priority
+1,Neonatology,
+2,Hepatology,
+3,ENT,
+4,Endocrine Surgery,
+5,Pathology,
+6,Pediatric Surgery,
+7,Pediatric Hematology,
+8,Pediatric Radiology,
+9,Allergy and Immunology,
+10,Cardiology,
+11,Pain Medicine,
+12,Pediatric Urology,
+13,Endocrinology,
+14,Pediatric Transplant Hepatology,
+15,Pediatric Urologic Surgery,
+16,Pediatric Orthopedic Surgery,
+17,Physical Medicine and Rehabilitation,
+18,Hematology,
+19,Thoracic Surgery,
+20,Urology,
+21,Pediatric Trauma Surgery,
+22,Vascular Surgery,
+23,Geriatrics,
+24,Neurology,
+25,Neonatal Medicine,5
+26,Radiology,
+27,Oncologic Surgery,
+28,Orthopedic Oncology,8
+29,Obstetrics and Gynecology,
+30,Cardiothoracic Surgery,
+31,Gastroenterology,
+32,Pediatric Oncology,
+33,Gastrointestinal Surgery,3
+34,Ophthalmology,
+35,Pediatric Transplant Surgery,
+36,Rheumatology,
+37,Pediatric Cardiology,
+38,Psychiatry,
+39,Dermatology,9
+40,Pediatric Plastic Surgery,
+41,Gynecologic Oncology,
+42,Pediatric Neurology,
+43,Oncology,4
+44,Orthopedics,
+45,Anesthesiology,
+46,Orthopedic Surgery,6
+47,Infectious Disease,2
+48,Pediatric Rheumatology,
+49,Pulmonology,
+50,Emergency Medicine,
+51,Sports Medicine,
+52,Nephrology,
+53,Medical Genetics,7
+54,Oncopathology,
+55,Pediatrics,1
