@@ -18,11 +18,11 @@ This project is designed to perform Extract, Transform, and Load (ETL) operation
 * Setup
 * Usage
 * Contributing
-* License
-* # Overview
+
+# Overview
 The project consists of several Python scripts organized into modules, each responsible for a specific task in the ETL process.
 
-* # File Descriptions
+# File Descriptions
 - main.py
   
   This script orchestrates the entire ETL process. It imports functions from other modules, initializes necessary resources, and executes the ETL pipeline.
